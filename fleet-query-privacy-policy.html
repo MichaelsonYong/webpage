@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fleet Query 隐私政策 / Privacy Policy</title>
+<meta name="description" content="Fleet Query（com.fleetquery.app）Android 应用隐私政策">
+<style>
+  :root{
+    --bg:#f5f7fa; --card:#ffffff; --fg:#1b2430; --muted:#5b6b7c;
+    --accent:#0f5ea8; --accent-soft:#e8f1fb; --line:#dfe6ee; --ok:#0d7a54;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:"Segoe UI","PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+    line-height:1.75; font-size:16px;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 72px}
+  header.hero{
+    background:linear-gradient(135deg,#0f5ea8,#1b86d6);
+    color:#fff;border-radius:16px;padding:28px 28px 24px;box-shadow:0 8px 24px rgba(15,94,168,.18)
+  }
+  header.hero h1{margin:0 0 6px;font-size:26px;letter-spacing:.2px}
+  header.hero p.sub{margin:0;opacity:.92;font-size:14px}
+  .meta{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+  .meta span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);
+    padding:4px 10px;border-radius:999px;font-size:12.5px}
+  .toolbar{display:flex;gap:8px;justify-content:flex-end;margin:18px 0 0}
+  .toolbar button{
+    font:inherit;font-size:13.5px;cursor:pointer;border:1px solid var(--line);
+    background:var(--card);color:var(--fg);padding:7px 14px;border-radius:999px;transition:.15s
+  }
+  .toolbar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+  .toolbar button:hover{border-color:var(--accent)}
+  main{background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:8px 28px 28px;margin-top:16px;box-shadow:0 2px 10px rgba(27,36,48,.05)}
+  h2{font-size:19px;margin:30px 0 10px;padding-top:16px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0;padding-top:8px}
+  h2 .num{color:var(--accent);margin-right:8px}
+  h3{font-size:16px;margin:18px 0 6px}
+  p,li{font-size:15px}
+  ul{padding-left:22px;margin:8px 0}
+  li{margin:5px 0}
+  .lead{font-size:15.5px;color:var(--muted)}
+  .callout{
+    background:var(--accent-soft);border-left:4px solid var(--accent);
+    border-radius:8px;padding:14px 16px;margin:16px 0
+  }
+  .callout strong{color:var(--accent)}
+  .ok{color:var(--ok);font-weight:600}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+  th{background:#f0f4f9;font-weight:600;width:38%}
+  code{background:#eef2f7;padding:1px 6px;border-radius:5px;font-size:13.5px;
+    font-family:Consolas,"SFMono-Regular",Menlo,monospace;word-break:break-all}
+  .ph{background:#fff3cd;border-bottom:1px dashed #c99a1a;padding:0 3px}
+  footer{margin-top:22px;color:var(--muted);font-size:13px;text-align:center}
+  [hidden]{display:none !important}
+  @media(max-width:560px){
+    header.hero{padding:22px 18px}
+    header.hero h1{font-size:21px}
+    main{padding:4px 16px 20px}
+    th{width:44%}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <h1 id="heroTitle">Fleet Query 隐私政策</h1>
+  <p class="sub" id="heroSub">Fleet Query（Android 应用）· 生效日期：2026 年 10 月 7 日</p>
+  <div class="meta">
+    <span id="m1">应用名称：Fleet Query</span>
+    <span id="m2">包名：com.fleetquery.app</span>
+    <span id="m3">版本：1.0</span>
+    <span id="m4">平台：Android 7.0 及以上</span>
+  </div>
+</header>
+
+<div class="toolbar">
+  <button id="btnZh" aria-pressed="true" onclick="setLang('zh')">简体中文</button>
+  <button id="btnEn" aria-pressed="false" onclick="setLang('en')">English</button>
+</div>
+
+<main>
+
+<!-- ============================= 中文 ============================= -->
+<section id="doc-zh">
+
+  <p class="lead">本隐私政策由 Fleet Query 开发团队（以下简称“我们”）制定，适用于 Android 应用 Fleet Query（包名 <code>com.fleetquery.app</code>，以下简称“本应用”）。我们非常重视您的个人信息与隐私保护。请您在使用本应用前仔细阅读并充分理解本政策。</p>
+
+  <div class="callout">
+    <strong>核心结论（一句话版）：</strong>本应用是一款完全离线的航空货运查询工具。它<span class="ok">不申请任何敏感权限、不具备联网能力、不收集、不上传、不共享您的个人信息</span>，也不包含广告、统计或任何第三方数据采集 SDK。
+  </div>
+
+  <h2><span class="num">1.</span>我们如何收集和使用信息</h2>
+  <h3>1.1 我们不收集个人信息</h3>
+  <p>本应用是一款本地查询工具，无需注册、登录，也不要求您提供姓名、手机号、邮箱、身份证号、地址等任何个人信息。我们不会收集、读取或上传以下信息：</p>
+  <ul>
+    <li>设备标识符（如 IMEI、IMSI、Android ID、OAID、MAC 地址等）；</li>
+    <li>精确或粗略地理位置信息；</li>
+    <li>通讯录、短信、通话记录、日历；</li>
+    <li>相册、照片、视频、麦克风录音；</li>
+    <li>相机画面、剪贴板内容；</li>
+    <li>已安装应用列表、账号信息。</li>
+  </ul>
+
+  <h3>1.2 本应用实际使用的功能与对应数据</h3>
+  <table>
+    <tr><th>功能</th><td>机型查询（载量、货舱容积、座位布局）、货舱门与货舱尺寸查询、ULD（集装箱/集装板）规格查询</td></tr>
+    <tr><th>实现方式</th><td>上述数据（33 种机型与 ULD 规格）全部内置于应用安装包中，在设备本地计算和展示</td></tr>
+    <tr><th>收集的个人信息</th><td>无</td></tr>
+    <tr><th>数据出境 / 回传</th><td>无（应用未申请网络权限，无法连接互联网）</td></tr>
+  </table>
+
+  <h2><span class="num">2.</span>权限使用说明</h2>
+  <p>经核查，本应用在 Android 清单中<strong>未申请任何敏感权限或危险权限</strong>，包括但不限于：</p>
+  <ul>
+    <li><code>INTERNET</code>（网络访问）——<span class="ok">未申请</span>，因此应用无法向任何服务器发送数据；</li>
+    <li><code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>（定位）——未申请；</li>
+    <li><code>READ_CONTACTS</code> / <code>READ_SMS</code> / <code>CALL_PHONE</code>——未申请；</li>
+    <li><code>CAMERA</code> / <code>RECORD_AUDIO</code>——未申请；</li>
+    <li><code>READ_EXTERNAL_STORAGE</code> / <code>WRITE_EXTERNAL_STORAGE</code> / <code>READ_MEDIA_*</code>（存储与媒体）——未申请。</li>
+  </ul>
+  <p>应用仅声明了一项由 AndroidX 组件自动生成的内部权限 <code>com.fleetquery.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>，用于限制应用内部广播接收器被外部应用访问，属于系统安全机制，不会收集或对外提供任何数据。</p>
+  <p>因此，您在系统“设置 → 应用 → Fleet Query → 权限”中看到的权限列表为空或均为“未授予”，这是正常现象。</p>
+
+  <h2><span class="num">3.</span>设备本地存储的数据</h2>
+  <p>本应用仅在您的设备本地保存极少量、与个人身份无关的配置信息：</p>
+  <ul>
+    <li><strong>语言偏好设置</strong>：记录您在应用内选择的界面语言（支持简体中文、繁體中文、English、日本語、한국어、Deutsch、Français、Español、Português、Italiano、Русский、Українська、Ελληνικά、Nederlands、Polski、Türkçe、ไทย、Tiếng Việt、हिन्दी、Bahasa Indonesia、Bahasa Melayu、العربية 等）。该信息保存在应用私有的偏好文件（SharedPreferences）中，仅用于下次启动时恢复界面语言；</li>
+    <li><strong>崩溃日志（如有）</strong>：当应用发生异常退出时，崩溃堆栈信息可能被写入设备本地应用专属目录下的日志文件（如 <code>crash.log</code>），仅用于定位和修复问题；</li>
+    <li>应用运行时产生的正常缓存文件。</li>
+  </ul>
+  <p>上述数据均保存在设备本地应用专属目录内，不包含您的个人身份信息。<strong>由于本应用不具备联网能力，这些数据不会被上传至我们或任何第三方的服务器。</strong>卸载本应用后，上述本地数据（含崩溃日志与偏好设置）将随之被系统删除。</p>
+
+  <h2><span class="num">4.</span>系统备份说明</h2>
+  <p>本应用的清单中启用了 Android 系统的自动备份（<code>allowBackup="true"</code>）。在您已开启设备备份的情况下，Android 系统可能会将上述本地偏好数据一并纳入您<strong>本人的</strong>云端备份（例如您的 Google 账号备份），用于您在更换设备时恢复应用设置。</p>
+  <p>该备份完全由操作系统与您本人的云服务账号控制，<strong>我们不参与、不接收、也无法访问备份中的任何数据</strong>。您可以在设备的“设置 → 系统 → 备份”中随时关闭自动备份功能。</p>
+
+  <h2><span class="num">5.</span>第三方 SDK、广告与统计分析</h2>
+  <p>经对本应用安装包进行核查：</p>
+  <ul>
+    <li><span class="ok">未集成</span>任何广告投放 SDK（如 AdMob、穿山甲、优量汇等）；</li>
+    <li><span class="ok">未集成</span>任何统计分析或用户行为追踪 SDK（如友盟、神策、Google Analytics、Firebase 等）；</li>
+    <li><span class="ok">未集成</span>任何推送、社交分享、地图或第三方登录 SDK；</li>
+    <li>应用界面仅使用 Android 官方 AndroidX / Material 组件库，这些库在本地运行，不会采集或外发个人信息。</li>
+  </ul>
+  <p>因此，本应用不会向任何第三方共享、转让或公开披露您的个人信息。若未来版本引入任何会处理个人信息的第三方服务，我们将在引入前更新本政策、明示目的与范围，并在需要时重新征得您的同意。</p>
+
+  <h2><span class="num">6.</span>个人信息的共享、转让与公开披露</h2>
+  <p>由于本应用不收集个人信息，我们不存在向第三方共享、转让、公开披露您个人信息的情形。我们也不会出售您的任何数据。</p>
+
+  <h2><span class="num">7.</span>信息的跨境传输</h2>
+  <p>本应用不进行任何网络数据传输，因此不存在个人信息出境或跨境传输的情形。</p>
+
+  <h2><span class="num">8.</span>信息安全</h2>
+  <p>本应用的数据处理均在您的设备本地完成，不经过网络链路，从设计上避免了传输环节的泄露风险。我们建议您妥善保管设备并启用系统锁屏密码，以防止他人访问您设备上的数据。</p>
+
+  <h2><span class="num">9.</span>数据留存与删除</h2>
+  <p>应用本地保存的语言偏好与崩溃日志会一直保留在您的设备上，直至您：</p>
+  <ul>
+    <li>在系统“设置 → 应用 → Fleet Query → 存储”中点击“清除数据”；或</li>
+    <li>卸载本应用（系统将自动删除全部本地数据）。</li>
+  </ul>
+  <p>由于我们不收集、不存储您的个人信息，因此不存在需要我们代为删除的服务器端数据。</p>
+
+  <h2><span class="num">10.</span>未成年人保护</h2>
+  <p>本应用为面向航空货运从业人员的专业查询工具，不面向儿童设计，不收集任何年龄信息，也不会有针对性地向未成年人收集个人信息。若您是未成年人的监护人，发现相关疑虑，可通过本政策末尾的联系方式与我们沟通。</p>
+
+  <h2><span class="num">11.</span>您的权利</h2>
+  <p>依据《中华人民共和国个人信息保护法》等适用法律法规，您对个人信息享有知情、决定、查阅、复制、更正、删除等权利。由于本应用不收集您的个人信息，上述权利主要通过您对设备的本地控制实现（清除应用数据或卸载应用）。如您仍有疑问，欢迎联系我们。</p>
+
+  <h2><span class="num">12.</span>本政策的更新</h2>
+  <p>当应用功能、权限或数据处理方式发生变化时，我们会同步更新本政策，并在新版本中以适当方式提示您。重大变更（例如开始收集个人信息、新增联网功能或第三方 SDK）将通过应用内弹窗等显著方式再次征得您的同意。历史版本政策我们将予以留存备查。</p>
+
+  <h2><span class="num">13.</span>联系我们</h2>
+  <p>如您对本隐私政策或个人信息保护有任何疑问、意见或投诉，可通过以下方式联系我们：</p>
+  <ul>
+    <li>开发者 / 运营者：Fleet Query 开发团队</li>
+    <li>联系邮箱：<span class="ph">［请填写联系邮箱，例如 support@example.com］</span></li>
+    <li>应用包名：<code>com.fleetquery.app</code></li>
+  </ul>
+  <p>我们将在收到您的反馈后 15 个工作日内予以答复。</p>
+
+  <h2><span class="num">14.</span>其他说明</h2>
+  <p>本应用内提供的机型载量、货舱容积、货舱门与货舱尺寸、ULD 规格等数据<strong>仅供参考</strong>，实际运行数据以各航空公司发布的官方手册为准。该免责声明与个人信息处理无关，特此说明。</p>
+
+  <h2><span class="num">15.</span>版本信息</h2>
+  <table>
+    <tr><th>应用名称</th><td>Fleet Query</td></tr>
+    <tr><th>应用包名</th><td><code>com.fleetquery.app</code></td></tr>
+    <tr><th>版本号</th><td>1.0（versionCode 1）</td></tr>
+    <tr><th>支持系统</th><td>Android 7.0（API 24）及以上</td></tr>
+    <tr><th>目标系统版本</th><td>Android 14（API 34）</td></tr>
+    <tr><th>申请权限</th><td>无敏感权限（仅应用内部广播权限）</td></tr>
+    <tr><th>联网能力</th><td>无（未申请 INTERNET 权限）</td></tr>
+    <tr><th>第三方 SDK</th><td>无（仅 AndroidX / Material 官方组件）</td></tr>
+    <tr><th>政策生效日期</th><td>2026 年 10 月 7 日</td></tr>
+    <tr><th>政策更新日期</th><td>2026 年 10 月 7 日</td></tr>
+  </table>
+
+</section>
+
+<!-- ============================= English ============================= -->
+<section id="doc-en" hidden>
+
+  <p class="lead">This Privacy Policy is issued by the Fleet Query development team ("we", "us") and applies to the Android application <strong>Fleet Query</strong> (package name <code>com.fleetquery.app</code>, the "App"). We take your privacy seriously. Please read this Policy carefully before using the App.</p>
+
+  <div class="callout">
+    <strong>The short version:</strong> Fleet Query is a fully offline aviation-cargo reference tool. It <span class="ok">requests no sensitive permissions, has no network capability, and does not collect, upload or share your personal information.</span> It contains no advertising, analytics or third-party data-collection SDKs.
+  </div>
+
+  <h2><span class="num">1.</span>Information We Collect and Use</h2>
+  <h3>1.1 We do not collect personal information</h3>
+  <p>The App is a local reference tool. It requires no registration or sign-in and asks for no name, phone number, email address, government ID or address. We do not collect, read or transmit:</p>
+  <ul>
+    <li>Device identifiers (IMEI, IMSI, Android ID, OAID, MAC address, etc.);</li>
+    <li>Precise or approximate location;</li>
+    <li>Contacts, SMS, call logs or calendar data;</li>
+    <li>Photos, videos or microphone recordings;</li>
+    <li>Camera imagery or clipboard contents;</li>
+    <li>Installed-app lists or account information.</li>
+  </ul>
+
+  <h3>1.2 What the App actually does</h3>
+  <table>
+    <tr><th>Features</th><td>Aircraft lookup (payload, cargo volume, seating), cargo door and hold dimensions, and ULD (container / pallet) specifications</td></tr>
+    <tr><th>How it works</th><td>All data (33 aircraft types and ULD specifications) is bundled inside the APK and processed locally on your device</td></tr>
+    <tr><th>Personal data collected</th><td>None</td></tr>
+    <tr><th>Data transmission</th><td>None — the App does not request the INTERNET permission and cannot connect to any network</td></tr>
+  </table>
+
+  <h2><span class="num">2.</span>Permissions</h2>
+  <p>The App declares <strong>no sensitive or dangerous Android permissions</strong>, including but not limited to:</p>
+  <ul>
+    <li><code>INTERNET</code> — <span class="ok">not requested</span>, so the App is technically incapable of sending data anywhere;</li>
+    <li><code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code> — not requested;</li>
+    <li><code>READ_CONTACTS</code> / <code>READ_SMS</code> / <code>CALL_PHONE</code> — not requested;</li>
+    <li><code>CAMERA</code> / <code>RECORD_AUDIO</code> — not requested;</li>
+    <li><code>READ_EXTERNAL_STORAGE</code> / <code>WRITE_EXTERNAL_STORAGE</code> / <code>READ_MEDIA_*</code> — not requested.</li>
+  </ul>
+  <p>The only declared permission is the internal AndroidX-generated permission <code>com.fleetquery.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>, which prevents other apps from accessing the App's internal broadcast receivers. It is a security mechanism and collects no data.</p>
+  <p>It is therefore normal that the App's permission list is empty in <em>Settings → Apps → Fleet Query → Permissions</em>.</p>
+
+  <h2><span class="num">3.</span>Data Stored Locally on Your Device</h2>
+  <ul>
+    <li><strong>Language preference</strong> — the interface language you pick (Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French, Spanish, Portuguese, Italian, Russian, Ukrainian, Greek, Dutch, Polish, Turkish, Thai, Vietnamese, Hindi, Indonesian, Malay, Arabic and more), stored in the App's private SharedPreferences file so it can be restored on the next launch;</li>
+    <li><strong>Crash logs (if any)</strong> — when the App exits unexpectedly, a stack trace may be written to a log file (e.g. <code>crash.log</code>) inside the App's private on-device directory, solely for diagnosing and fixing the problem;</li>
+    <li>Ordinary runtime cache files.</li>
+  </ul>
+  <p>All of this stays in the App's private directory on your device and contains no personally identifying information. <strong>Because the App has no network capability, none of it is uploaded to us or to any third party.</strong> Uninstalling the App deletes this local data.</p>
+
+  <h2><span class="num">4.</span>System Backup</h2>
+  <p>The App enables Android's automatic backup (<code>allowBackup="true"</code>). If backup is enabled on your device, Android may include this local preference data in <strong>your own</strong> cloud backup (for example, your Google account backup) so that your settings can be restored on a new device. This backup is controlled entirely by the operating system and your own cloud account; <strong>we do not receive, participate in, or have access to it.</strong> You can turn off automatic backup at any time under <em>Settings → System → Backup</em>.</p>
+
+  <h2><span class="num">5.</span>Third-Party SDKs, Advertising and Analytics</h2>
+  <p>Inspection of the App package confirms:</p>
+  <ul>
+    <li><span class="ok">No</span> advertising SDK is integrated (AdMob, Pangle, Tencent Ads, etc.);</li>
+    <li><span class="ok">No</span> analytics or behavioural-tracking SDK is integrated (Umeng, Sensors, Google Analytics, Firebase, etc.);</li>
+    <li><span class="ok">No</span> push, social-sharing, map or third-party sign-in SDK is integrated;</li>
+    <li>Only official AndroidX / Material UI libraries are used, and they run locally without collecting or transmitting personal data.</li>
+  </ul>
+  <p>Accordingly, we do not share, transfer or publicly disclose your personal information to any third party. Should a future version introduce any service that processes personal information, we will update this Policy beforehand, state the purpose and scope, and obtain your consent again where required.</p>
+
+  <h2><span class="num">6.</span>Sharing, Transfer and Public Disclosure</h2>
+  <p>Because the App collects no personal information, we do not share, transfer or publicly disclose it, and we do not sell any data.</p>
+
+  <h2><span class="num">7.</span>Cross-Border Transfers</h2>
+  <p>The App performs no network transmission, so no personal information is transferred across borders.</p>
+
+  <h2><span class="num">8.</span>Security</h2>
+  <p>All processing happens locally on your device and never traverses a network, which by design removes transmission-related leakage risks. We recommend keeping your device protected with a screen lock.</p>
+
+  <h2><span class="num">9.</span>Retention and Deletion</h2>
+  <p>Local preferences and crash logs remain on your device until you either clear the App's data (<em>Settings → Apps → Fleet Query → Storage → Clear data</em>) or uninstall the App. As we never collect or store your personal information, there is no server-side data for us to delete on your behalf.</p>
+
+  <h2><span class="num">10.</span>Children's Privacy</h2>
+  <p>The App is a professional reference tool for air-cargo personnel. It is not directed to children, collects no age information, and does not knowingly collect personal information from minors. Guardians with concerns may contact us using the details below.</p>
+
+  <h2><span class="num">11.</span>Your Rights</h2>
+  <p>Subject to applicable law (including the PRC Personal Information Protection Law and, where applicable, the GDPR), you have rights of access, rectification, erasure, restriction and objection. Since the App collects no personal information, these rights are exercised through your own local control of the device (clearing app data or uninstalling). Please contact us if you have questions.</p>
+
+  <h2><span class="num">12.</span>Changes to This Policy</h2>
+  <p>We will update this Policy whenever the App's features, permissions or data practices change, and will notify you within the new version. Material changes (such as beginning to collect personal information, adding network features or third-party SDKs) will be presented for your renewed consent through an in-app prompt. Previous versions will be retained for reference.</p>
+
+  <h2><span class="num">13.</span>Contact Us</h2>
+  <ul>
+    <li>Developer / operator: Fleet Query development team</li>
+    <li>Email: <span class="ph">[please fill in a contact email, e.g. support@example.com]</span></li>
+    <li>Package name: <code>com.fleetquery.app</code></li>
+  </ul>
+  <p>We will respond within 15 business days.</p>
+
+  <h2><span class="num">14.</span>Other Notes</h2>
+  <p>Aircraft payload, cargo volume, door and hold dimensions and ULD specifications shown in the App are <strong>for reference only</strong>; actual operating data is subject to each airline's official manual. This disclaimer is unrelated to personal-data processing.</p>
+
+  <h2><span class="num">15.</span>Version Information</h2>
+  <table>
+    <tr><th>App name</th><td>Fleet Query</td></tr>
+    <tr><th>Package name</th><td><code>com.fleetquery.app</code></td></tr>
+    <tr><th>Version</th><td>1.0 (versionCode 1)</td></tr>
+    <tr><th>Minimum OS</th><td>Android 7.0 (API 24)</td></tr>
+    <tr><th>Target OS</th><td>Android 14 (API 34)</td></tr>
+    <tr><th>Permissions</th><td>None sensitive (internal broadcast permission only)</td></tr>
+    <tr><th>Network capability</th><td>None (INTERNET permission not requested)</td></tr>
+    <tr><th>Third-party SDKs</th><td>None (official AndroidX / Material components only)</td></tr>
+    <tr><th>Effective date</th><td>October 7, 2026</td></tr>
+    <tr><th>Last updated</th><td>October 7, 2026</td></tr>
+  </table>
+
+</section>
+
+</main>
+
+<footer>
+  <p id="footZh">© 2026 Fleet Query 开发团队 · 本政策适用于 Fleet Query for Android v1.0</p>
+  <p id="footEn" hidden>© 2026 Fleet Query development team · This Policy applies to Fleet Query for Android v1.0</p>
+</footer>
+
+</div>
+
+<script>
+function setLang(lang){
+  var zh = lang === 'zh';
+  document.getElementById('doc-zh').hidden = !zh;
+  document.getElementById('doc-en').hidden = zh;
+  document.getElementById('footZh').hidden = !zh;
+  document.getElementById('footEn').hidden = zh;
+  document.getElementById('btnZh').setAttribute('aria-pressed', zh ? 'true' : 'false');
+  document.getElementById('btnEn').setAttribute('aria-pressed', zh ? 'false' : 'true');
+  document.getElementById('heroTitle').textContent = zh ? 'Fleet Query 隐私政策' : 'Fleet Query Privacy Policy';
+  document.getElementById('heroSub').textContent = zh
+    ? 'Fleet Query（Android 应用）· 生效日期：2026 年 10 月 7 日'
+    : 'Fleet Query for Android · Effective date: October 7, 2026';
+  document.getElementById('m1').textContent = zh ? '应用名称：Fleet Query' : 'App: Fleet Query';
+  document.getElementById('m2').textContent = zh ? '包名：com.fleetquery.app' : 'Package: com.fleetquery.app';
+  document.getElementById('m3').textContent = zh ? '版本：1.0' : 'Version: 1.0';
+  document.getElementById('m4').textContent = zh ? '平台：Android 7.0 及以上' : 'Platform: Android 7.0+';
+  document.documentElement.lang = zh ? 'zh-CN' : 'en';
+  document.title = zh ? 'Fleet Query 隐私政策' : 'Fleet Query Privacy Policy';
+  try { localStorage.setItem('fq-lang', lang); } catch (e) {}
+}
+(function(){
+  var saved = null;
+  try { saved = localStorage.getItem('fq-lang'); } catch (e) {}
+  setLang(saved === 'en' ? 'en' : 'zh');
+})();
+</script>
+</body>
+</html>
